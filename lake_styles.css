@@ -1,0 +1,70 @@
+﻿@charset "utf-8";
+@import "lake_layout.css";
+@font-face{
+   font-family: Champagne;
+   src: url(cac_champagne.tff) format('ttf'),
+         url(cac_champagne.woff) format('woff'),
+         url(cac_champagne.woff2) format('woff2'),
+}
+@/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: David Lopez
+   Date:  9/16/19 
+   
+   Filename: lake_styles.css
+
+*/
+html{
+   background-color: rebeccapurple;
+   
+}
+body{
+   background-color: darkkhaki;
+   font-family: 'Times New Roman', Times, serif;
+}
+h1{
+   font-family:cursive;  
+   font-size: 2em;
+}
+footer{
+   background-color: gray;
+   color:white;
+   font-size: .8em;
+   padding-top: 1px;
+   padding-bottom: 1px;
+   padding-left: 1px;
+   padding-right: 1px;
+}
+body > header{
+   background-color: purple;
+   padding-top: 2px;
+   padding-bottom: 2px;
+}
+
+body header h1{
+   font-size: 5em;
+}
+section{
+   background-color: antiquewhite;
+   padding-right: 10px;
+   padding-left: 10px; 
+}
+#rightcol{
+   background-color: mediumorchid;
+   padding-left: 10px;
+   font-family: cursive
+}
+li{
+   font-family: normal;
+}
+aside{
+   background-color: orange;
+}
+nav {
+   color:
+
+}
